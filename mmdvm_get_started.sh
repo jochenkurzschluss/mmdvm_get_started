@@ -175,7 +175,7 @@ then
         echo " " >> $hotdat
         echo "exit 0 " >> $hotdat
         echo -e $(date '+%H:%M:%S')" - hotspot.sh ist geschrieben !" >> $current_directory/instLog.log
-
+        chmod +x /opt/hotspot/hotspot.sh
 # Installationshilfe abschließen
         echo -e "#   Die Installationshilfe ist abgeschlossen ! \n#   Bemerkungen in bezug des Erfolgs siehe Logdatei"
         echo -e $(date '+%H:%M:%S')" -   Installationshilfe ist abgeschlossen\nSchluss ! ! !" >> $current_directory/instLog.log
