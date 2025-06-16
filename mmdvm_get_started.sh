@@ -119,6 +119,8 @@ then
 # DAPNETGateway mit make kompelieren
         echo "#   Kompieliere... DAPNETGateway"
         echo $(date '+%H:%M:%S')" - wechsle in verzeichniss /opt/hotspot/DAPNETGateway" >> $current_directory/git_dapnet.log
+#Dapnetgateway bugfix
+        cp -f "$current_directory"/config/Conf.cpp /opt/hotspot/DAPNETGateway/Conf.cpp
         cd /opt/hotspot/DAPNETGateway
         make | tee &>> instLog.log
 
