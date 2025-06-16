@@ -1,1 +1,6 @@
 Informationen zu den .ini Dateien
+- DAPNETGateway.ini
+- DMRGateway.ini
+- MMDVM.ini
+
+Sind Datein aus den Paketen von https://github.com/g4klx/ und dienen als rohe vorkonfiguration! Ich habe diese nicht entworfen auch nicht die Pakete!
