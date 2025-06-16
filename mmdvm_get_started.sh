@@ -77,7 +77,7 @@ then
     echo "#   "
     echo "#   Prüfe Abhängigkeiten..."
     echo -e $(date '+%H:%M:%S')"- Installation fehlender Pakete" >> $current_directory/instLog.log
-    sudo apt-get install git vim gcc cpp build-essential cmake automake nano screen -y  | tee &>> $current_directory/instLog.log
+    sudo apt-get install git vim gcc cpp build-essential cmake automake nano screen make cppzmq libsdl2-dev libzmq3-dev -y  | tee &>> $current_directory/instLog.log
     echo "#   "
     echo "#   "
     echo "#   "
