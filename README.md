@@ -1,6 +1,6 @@
 # mmdvm_get_started
-installationshilfe des MMDVMHost, DMRgateway und DAPNETGateway
-Genutzt wird die software von https://github.com/g4klx/ 
+Installationshilfe des MMDVMHost, DMRgateway und DAPNETGateway
+genutzt wird die software von https://github.com/g4klx/ 
 
 Die Installationshilfe ist einfach zu bedienen und Selbsterklärend
 
