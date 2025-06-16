@@ -65,13 +65,18 @@ then
     echo "#   "
     echo "#   "
     echo "#   "
+    echo -e $(date '+%H:%M:%S')"- Installationsquellen Aktualisieren" >> $current_directory/instLog.log
+    echo "#   Aktualisiere die Installationsquellen"
     sudo apt-get update | tee  &>> $current_directory/instLog.log
+    echo -e $(date '+%H:%M:%S')"- Aktualisieren des Systems" >> $current_directory/instLog.log
+    echo "#   Aktualisiere das System"
     sudo apt-get upgrade -y | tee &>> $current_directory/instLog.log
     echo "#   "
     echo "#   "
     echo "#   "
     echo "#   "
-    echo "#   Prüfe..."
+    echo "#   Prüfe Abhängigkeiten..."
+    echo -e $(date '+%H:%M:%S')"- Installation fehlender Pakete" >> $current_directory/instLog.log
     sudo apt-get install git vim gcc cpp build-essential cmake automake nano screen -y  | tee &>> $current_directory/instLog.log
     echo "#   "
     echo "#   "
