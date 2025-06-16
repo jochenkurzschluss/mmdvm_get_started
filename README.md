@@ -8,6 +8,6 @@ Die Installationshilfe ist einfach zu bedienen und Selbsterklärend
 
 How to install:
 
-git clone https://github.com/jochenkurzschluss/mmdvm_get_started.git
-cd mmdvm_get_started
-chmod +x mmdvm_get_started.sh
+git clone https://github.com/jochenkurzschluss/mmdvm_get_started.git \n
+cd mmdvm_get_started \n
+chmod +x mmdvm_get_started.sh \n
