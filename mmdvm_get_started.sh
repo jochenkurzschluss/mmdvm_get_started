@@ -132,7 +132,7 @@ then
         cp -f "$current_directory"/config/DAPNETGateway.ini /opt/hotspot/MMDVMHost/DAPNETGateway.ini
 # Benutzer "rechte" und Modem Manager der heit Überflüssig ist
         sudo usermod -a -G dialout $current_user
-        sudo apt-get remove modemmanager -Y
+        sudo apt-get remove modemmanager -y
 
 # Anlegen der Startdatei
         echo $(date '+%H:%M:%S')" - lege hotspot.sh an" >> $current_directory/instLog.log
